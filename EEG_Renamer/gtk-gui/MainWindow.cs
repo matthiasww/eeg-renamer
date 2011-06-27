@@ -40,7 +40,7 @@ public partial class MainWindow
 		global::Stetic.Gui.Initialize (this);
 		// Widget MainWindow
 		this.Name = "MainWindow";
-		this.Title = global::Mono.Unix.Catalog.GetString ("MainWindow");
+		this.Title = global::Mono.Unix.Catalog.GetString ("Brainvision EEG Renamer");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		// Container child MainWindow.Gtk.Container+ContainerChild
 		this.vbox1 = new global::Gtk.VBox ();
@@ -80,7 +80,7 @@ public partial class MainWindow
 		this.btnLoad.CanFocus = true;
 		this.btnLoad.Name = "btnLoad";
 		this.btnLoad.UseUnderline = true;
-		this.btnLoad.Label = global::Mono.Unix.Catalog.GetString ("Durchsuchen...");
+		this.btnLoad.Label = global::Mono.Unix.Catalog.GetString ("Browse...");
 		this.hbox3.Add (this.btnLoad);
 		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox3[this.btnLoad]));
 		w3.Position = 1;
@@ -142,7 +142,7 @@ public partial class MainWindow
 		this.btnAddAssignment.CanFocus = true;
 		this.btnAddAssignment.Name = "btnAddAssignment";
 		this.btnAddAssignment.UseUnderline = true;
-		this.btnAddAssignment.Label = global::Mono.Unix.Catalog.GetString ("Hinzufügen");
+		this.btnAddAssignment.Label = global::Mono.Unix.Catalog.GetString ("Add");
 		this.hbox2.Add (this.btnAddAssignment);
 		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.hbox2[this.btnAddAssignment]));
 		w10.Position = 2;
@@ -165,7 +165,7 @@ public partial class MainWindow
 		this.btnQuit.CanFocus = true;
 		this.btnQuit.Name = "btnQuit";
 		this.btnQuit.UseUnderline = true;
-		this.btnQuit.Label = global::Mono.Unix.Catalog.GetString ("Beenden");
+		this.btnQuit.Label = global::Mono.Unix.Catalog.GetString ("Quit");
 		this.hbox1.Add (this.btnQuit);
 		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.btnQuit]));
 		w13.Position = 1;
@@ -176,7 +176,7 @@ public partial class MainWindow
 		this.btnRename.CanFocus = true;
 		this.btnRename.Name = "btnRename";
 		this.btnRename.UseUnderline = true;
-		this.btnRename.Label = global::Mono.Unix.Catalog.GetString ("Neu benennen");
+		this.btnRename.Label = global::Mono.Unix.Catalog.GetString ("Rename");
 		this.hbox1.Add (this.btnRename);
 		global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.hbox1[this.btnRename]));
 		w14.Position = 2;
