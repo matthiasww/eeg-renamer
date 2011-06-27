@@ -22,7 +22,7 @@ public partial class MainWindow : Gtk.Window
 		indexColumn.PackStart(indexRenderer, true);
 		
 		TreeViewColumn valueColumn = new TreeViewColumn ();
-		valueColumn.Title = "Wert";
+		valueColumn.Title = "Value";
 		
 		CellRendererText valueRenderer = new CellRendererText();
 		valueColumn.PackStart(valueRenderer, true);

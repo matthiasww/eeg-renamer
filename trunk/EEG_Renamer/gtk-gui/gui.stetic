@@ -6,11 +6,11 @@
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
-    <widget-library name="../bin/Debug/EEG_Renamer.exe" internal="true" />
+    <widget-library name="../bin/Release/EEG_Renamer.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="MainWindow" design-size="400 300">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="Title" translatable="yes">Brainvision EEG Renamer</property>
     <property name="WindowPosition">CenterOnParent</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
     <child>
@@ -57,7 +57,7 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Type">TextOnly</property>
-                    <property name="Label" translatable="yes">Durchsuchen...</property>
+                    <property name="Label" translatable="yes">Browse...</property>
                     <property name="UseUnderline">True</property>
                   </widget>
                   <packing>
@@ -142,7 +142,7 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Type">TextOnly</property>
-                    <property name="Label" translatable="yes">Hinzufügen</property>
+                    <property name="Label" translatable="yes">Add</property>
                     <property name="UseUnderline">True</property>
                   </widget>
                   <packing>
@@ -178,7 +178,7 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Type">TextOnly</property>
-                <property name="Label" translatable="yes">Beenden</property>
+                <property name="Label" translatable="yes">Quit</property>
                 <property name="UseUnderline">True</property>
               </widget>
               <packing>
@@ -193,7 +193,7 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Type">TextOnly</property>
-                <property name="Label" translatable="yes">Neu benennen</property>
+                <property name="Label" translatable="yes">Rename</property>
                 <property name="UseUnderline">True</property>
               </widget>
               <packing>
