@@ -1,0 +1,3 @@
+# Compiling for Windows #
+
+Compiling the program for Microsoft Windows is quite straightforward, as I'm now providing both solution and project files for Visual Studio 2010. All you'll need to do is to download and Install **Gtk#** library (http://www.go-mono.com/mono-downloads/download.html). Load EEG\_Renamer\_VS2010.sln with your **Visual Studio 2010** (planning to support older versions too, just be patient) and build it (preferably in _Release_ configuration).

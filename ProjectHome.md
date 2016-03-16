@@ -1,0 +1,3 @@
+During working on my diploma thesis I came to the point where I had to rename Brainvision EEG files. The brainvision Header and Marker files contain the filename of the data file and (in case of the header file) the marker file. To avoid having to rename and edit them all by hand, I decided to write a small utility to rename these files. One can define a pattern of file naming and automatically substitute fields of this pattern, to ensure an consistent naming to the EEG files.
+
+First wrote it in MS .NET with Windows forms, but switched to MONO with Gtk for I had the files to be renamed on my Linux PC. By the time I created project files for Visual Studio 2010 too, so you may compile it with .NET now.
